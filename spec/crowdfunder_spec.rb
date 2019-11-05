@@ -70,7 +70,7 @@ describe "crowdfunder sql" do
       @sql_runner.execute_create_sql
       @sql_runner.execute_insert_sql
     end
-
+#binding.pry
     it "has 20 users" do
       expect(@db.execute("SELECT COUNT(*) FROM users;").flatten[0]).to eq(20)
     end
