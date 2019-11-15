@@ -85,7 +85,7 @@ describe "crowdfunder sql" do
 
   end
 
-  describe "questions" do
+  describe "sql_queries.rb" do
     before do
       @sql_runner.execute_create_sql
       @sql_runner.execute_data
